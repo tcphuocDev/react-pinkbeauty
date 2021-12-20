@@ -1,0 +1,72 @@
+.bread-crumb{
+    background-color: #fff;
+    .bread-crumb-box{
+        width: 1200px;
+        margin: 197.39px  auto 0;
+        padding: 15px 0;
+        display: flex;
+        align-items: center;
+
+
+        .bread-crumb-item{
+            display: block;
+            font-size: 14px;
+        }
+        ion-icon{
+            margin: 0 5px;
+        }
+        .bread-crumb-item-first{
+            color: var(--color-text-2);
+        }
+        .bread-crumb-item-current{
+            font-size: 15px;
+            color: #767676;
+            text-transform: uppercase;
+        }
+
+    }
+}
+
+
+
+.content-page{
+    padding: 32px 0 0;
+    
+    .blog-detail{
+
+        .blog-detail-header{
+
+            .blog-detail-top{
+                .blog-item-time{
+                    font-size: 14px;
+                    color: #191919;
+                }
+            }
+            .blog-detail-title{
+                margin: 8px 0 24px;
+                font-size: 24px;
+            }
+            .blog-social-share{
+                margin: 0 0 14px;
+            }
+        }
+        .blog-detail-summarry{
+            padding: 0 0 30px;
+            margin: 0 0 30px;
+        }
+        .blog-detail-body{
+
+            .blog-detail-content{
+                p{
+                    margin: 0 0 14px;
+                    font-size: 14px;
+                }
+                ul {
+                    li{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}

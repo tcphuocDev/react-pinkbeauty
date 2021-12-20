@@ -1,0 +1,82 @@
+.cart-order__deliver {
+    margin: 14px 0;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-radius: 6px;
+    overflow: hidden;
+    .cart__header{
+        background-color: var(--bg-order-header);
+        padding: 12px 0;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        .cart__title{
+            font-size: 1.0rem;
+            padding-left: 10px;
+        }
+    }
+
+    .cart-deliver__address {
+        padding: 20px 22px;
+        background-color: var(--white);
+        .text-color1 {
+            color: #d69470;
+            font-weight: 900;
+        }
+        .icon-color {
+            color: #d69470;
+            padding: 3px 0;
+            transform: translateY(6px);
+        }
+        .radio-form__store {
+            .check-address{
+                .check-icon__store {
+                    padding: 3px 0;
+                    color: var(--order-border);
+                    transform: translateY(6px);
+                }
+                .text-color {
+                    padding-bottom:14px ;
+                    font-weight: 900;
+                }
+                
+            }
+            .radio-form {
+                .check-address__text{
+                    padding:8px 0 8px 6px ;
+                }
+                .radio-form1__store {
+                    .check-icon1__store {
+                        padding: 3px 0;
+                        color: var(--order-border);
+                        transform: translateY(6px);
+                    }
+                    .check-address__text {
+                        padding-bottom:14px ;
+                    }
+                }
+                .radio-form2__store {
+                    .check-icon2__store {
+                        padding: 3px 0;
+                        color: var(--order-border);
+                        transform: translateY(6px);
+                    }
+                    .check-address__text {
+                        padding-bottom:14px ;
+                    }
+                }
+            }
+           
+        }
+        .radio-form__customer {
+            .check-icon__customer {
+                padding: 3px 0;
+                color: var(--order-border);
+                transform: translateY(6px);
+            }
+            .text-color {
+                padding-bottom:14px ;
+                font-weight: 900;
+            }
+        }
+    }
+}

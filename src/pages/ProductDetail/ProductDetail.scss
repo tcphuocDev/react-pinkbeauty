@@ -1,0 +1,23 @@
+.content-page{
+    .description {
+        margin-top: 16px;
+        background-color: var(--white);
+    
+        &-pd {
+            padding: 16px 28px;
+    
+            .description-heading {
+                font-size: 18px;
+                font-weight: 800;
+                color: #191919;
+                margin-bottom: 8px;
+            }
+    
+            .description-text {
+                font-size: 14px;
+                color: #191919;
+                font-style: italic;
+            }
+        }
+    }
+}

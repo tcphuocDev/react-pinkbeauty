@@ -1,0 +1,83 @@
+.cart-order__products{
+    margin-top: 14px;
+    background-color: var(--white);
+    overflow: hidden;
+    padding: 8px 0 0;
+    border-radius: 3px;
+    .cart-product__item{
+        display: flex;
+        align-items: center;
+        padding: 4px 0 4px 8px;
+        font-size: 0.8rem;
+        border-bottom: 1px solid var(--order-border);
+        .cart-product__content{
+            .cart-item__img{
+                width: 40%;
+            }
+            
+        }
+
+        .cart-product__classsify {
+            p {
+                font-weight: 400;
+                margin-bottom: 8px;
+                font-size: 0.7rem;
+                font-weight: 600;
+            }
+            h6 {
+                font-size: 0.8rem;
+                font-weight: 900;
+                
+            }
+        }
+        .cart-product__amount{
+            display: flex;
+            flex: 1;
+            .product-amount__icon{
+                padding: 4px 12px;
+                border: 1px solid var(--order-border);
+                font-size: 1.0rem;
+                cursor: pointer;
+            }
+            .product-amount__icon:nth-child(2){
+                padding: 4px 20px;
+                
+            }
+            .product-amount__icon:first-child{
+                border-top-left-radius: 2px;
+                border-bottom-left-radius: 2px;
+            }
+            .product-amount__icon:last-child{
+                border-top-right-radius: 2px;
+                border-bottom-right-radius: 2px;
+            }
+        }
+        .product-action__icon{
+            cursor: pointer;
+            .product-action__icon-del{
+                cursor: pointer;
+                &:hover{
+                    color: var(--color-text-2);
+                }
+            }
+        }
+        .cart-product__money{
+            color: var(--color-text-2);
+        }
+    }
+    .cart-item__input {
+        padding: 10px 16px;
+        .icon {
+            font-size: 0.8rem;
+            margin-right: 6px;
+            
+        }
+        input {
+            border: none;
+            outline: none;
+        }
+        &:hover {
+            border:1px solid var(--order-text-color);
+        }
+    }
+}

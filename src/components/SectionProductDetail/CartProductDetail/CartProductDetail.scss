@@ -1,0 +1,212 @@
+.product-details {
+    background-color: var(--white);
+    margin-top: 32px;
+
+    .img-block {
+
+        .img_details {
+            width: 100%;
+            border-right: 1px solid #e8e8e8;
+            border-bottom: 1px solid #e8e8e8;
+            padding: 24px 0;
+        }
+
+        &-sub {
+            text-align: center;
+            margin-top: 10px;
+
+            .img_details-sub {
+                width: 81px;
+                height: 81px;
+                min-width: 81px;
+                object-fit: contain;
+                border: 2px solid #D69470;
+                overflow: hidden;
+                text-align: center;
+            }
+        }
+    }
+
+    .brand {
+
+        &-title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #767676;
+            border-bottom: 1px solid #ededed;
+
+            .brand-name {
+
+                p {
+                    font-size: 14px;
+                }
+
+                .name-1 {
+                    padding-top: 16px;
+                }
+
+                .name-2 {
+                    padding: 6px 0 16px;
+                }
+            }
+
+            .brand-icon {
+                font-size: 24px;
+                color: #767676;
+            }
+        }
+
+        .brand-price {
+            border-bottom: 1px solid #ededed;
+
+            h4 {
+                padding-top: 12px;
+                font-size: 18px;
+            }
+
+            p {
+                padding: 10px 0 12px;
+                color: #E17640;
+                font-size: 24px;
+                font-weight: 800;
+            }
+        }
+
+        .brand-cart {
+            padding: 16px 0;
+
+            .quantity {
+                display: flex;
+                margin-bottom: 12px;
+                .product-qty-icon {
+                    width: 32px;
+                    height: 32px;
+                    min-width: 32px;
+                    font-size: 16px;
+                    font-weight: bold;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: 1px solid #d5d5d5;
+                    background-color: #fff;
+                   
+                }
+
+                .mk-form-control {
+                    width: 48px;
+                    height: 32px;
+                    min-width: 48px;
+                    font-weight: 700;
+                    text-align: center;
+                    outline: none;
+                    margin: 0 -1px;
+                    position: relative;
+                    padding: 4px;
+                    background-color: #fff;
+                    border-radius: 0;
+                    border: 1px solid #ccc;
+                    &:hover {
+                        border-color: #D69470;
+                    }
+                }
+
+            }
+
+            .brand-product-cart {
+                
+                .btn-details {
+                    padding: 7px 24px;
+                    line-height: 24px;
+                    border: 1px solid transparent;
+                    border-radius: 4px;
+                    font-weight: 500;
+                }
+
+                .mr-6 {
+                    margin-right: 6px;
+                }
+
+                .product-in-cart {
+                    border-color: #E17640;
+                    background-color: #E17640;
+                    color: var(--white);
+
+                    &:hover {
+                        background-color: rgba(225, 118, 64, 0.8);
+                        cursor: pointer;
+                    }
+                }
+
+                .product-cart-buy {
+                    background-color: #D69470;
+                    color: var(--white);
+
+                    &:hover {
+                        background-color: rgba(214, 148, 112, 0.8);
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+        .brand-contact {
+
+            .brand-btn {
+                color: var(--white);
+                background-color: #5f8ed4;
+                font-size: 10px;
+                border: 1px solid transparent;
+                padding: 2px 4px;
+                cursor: pointer;
+
+                .brand-contact-icon {
+                    font-size: 10px;
+                    background-color: transparent;
+                }
+            }
+
+            .mr-4 {
+                margin-right: 4px;
+            }
+
+        }
+    }
+
+    .warehouse {
+        padding-top: 16px;
+        padding-left: 14px;
+        border-left: 1px solid #e8e8e8;
+        height: 520px;
+
+        &-heading {
+            font-size: 14px;
+        }
+
+        .warehouse-address {
+
+            &.border-bt {
+                border-bottom: 1px solid #e8e8e8;
+            }
+
+            &-title {
+                font-size: 12px;
+                color: #191919;
+                font-weight: 800;
+                padding-top: 12px;
+            }
+
+            &-contact {
+                font-size: 12px;
+                color: #191919;
+                padding: 8px 0;
+            }
+
+            &-product {
+                font-size: 12px;
+                color: #12A959;
+                padding-bottom: 12px;
+            }
+        }
+    }
+}

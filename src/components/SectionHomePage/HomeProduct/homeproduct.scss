@@ -1,0 +1,30 @@
+.section-home-0{
+    padding: 64px 0 0;
+}
+.section-home-1{
+    padding: 32px 0 0;
+}
+.home-product-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 30px;
+}
+.home-product-name{
+    font-size: 26px;
+    color: var(--color-text);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.home-product-more{
+    font-size: 14px;
+    color: var(--color-text-2);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.home-product-list{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 32px;
+}

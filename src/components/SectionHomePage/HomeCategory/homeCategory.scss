@@ -1,0 +1,23 @@
+.home-category{
+    .home-category-list{
+        list-style: none;
+        .category-list_item{
+            margin: 0 0 2px;
+            .category-list_item-link{
+                display: block;
+                text-decoration: none;
+                font-size: 14px;
+                padding: 7px 16px;
+                background-color: #f4bcbc;
+                color: #191919;
+                font-weight: 700;
+                transition: .25s;
+
+                &:hover{
+                    background: var(--white);
+                    color: var(--color-text-2);
+                }
+            }
+        }
+    }
+}
