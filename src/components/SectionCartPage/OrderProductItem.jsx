@@ -1,4 +1,4 @@
-import React, {useContext, useState ,useEffect} from 'react'
+import React, {useContext} from 'react'
 import {Delete} from '@material-ui/icons';
 import {BorderColor} from '@material-ui/icons';
 import CartContext from '../../context/Cart/CartContext';

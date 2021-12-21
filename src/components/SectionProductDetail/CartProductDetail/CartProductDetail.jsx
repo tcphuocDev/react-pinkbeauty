@@ -3,10 +3,7 @@ import './CartProductDetail.scss';
 import CartContext from '../../../context/Cart/CartContext';
 const CartProductDetail = (props) => {
     const {product } = props;
-
-    const [qty , setQty] = useState(1);
-
-    const {removeItem,addToCart , changeQty} = useContext(CartContext);
+    const {addToCart } = useContext(CartContext);
     return (
         <div className="row product-details" key={product.id}>
                             <div className="col l-5 img-block">

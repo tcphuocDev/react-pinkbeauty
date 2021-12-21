@@ -6,7 +6,6 @@ import * as BiIcons from "react-icons/bi";
 import { Link} from 'react-router-dom';
 function HomeCart () {
     const {showCart , cartItems , showHideCart} = useContext(CartContext);
-    const [lstCart, setListCart] = useState([])
     const [total , setToTal ] = useState();
 
     useEffect(()=> {
